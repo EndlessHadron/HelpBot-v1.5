@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Hope your query was properly addressed!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which products do you have?",
+        "What kinds of services are there?",
+        "What do you do?"
+      ],
+      "responses": [
+        "We sell financial services",
+        "We automate finances for our clients"
+      ]
+    },
+    {
+      "tag": "sign up",
+      "patterns": [
+        "How do I sign up?",
+        "I can't sign in",
+        "How can I reset my password?",
+        "Can I change my login email?"
+      ],
+      "responses": [
+        "I can certainly help you with that request!",
+        "Here are the instructions on how to sign up with us"
+      ]
+    },
+    {
+      "tag": "fulfilment",
+      "patterns": [
+        "How long does fulfilment take usually?",
+        "I need results sooner",
+        "What is the usual timeline for medium projects?"
+      ],
+      "responses": [
+        "Fulfilment takes 2-4 months",
+        "I can transfer you with a member of the team that'll be happy to help you with that"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
